@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>169EDBE2-EB71-475D-B880-46A7FEE60438</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HorseBook</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1D82E131-8B04-4C72-9106-6D97C2A1A587</key>
+		<string>https://github.com/barkevious/horsebook.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HorseBook.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1D82E131-8B04-4C72-9106-6D97C2A1A587</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/barkevious/horsebook.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1D82E131-8B04-4C72-9106-6D97C2A1A587</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1D82E131-8B04-4C72-9106-6D97C2A1A587</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HorseBook</string>
+		</dict>
+	</array>
+</dict>
+</plist>
