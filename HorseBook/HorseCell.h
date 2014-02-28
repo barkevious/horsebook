@@ -10,6 +10,7 @@
 
 @interface HorseCell : UITableViewCell
 
+@property NSDictionary *horseInfo;
 @property (weak, nonatomic) IBOutlet UILabel *name;
 @property (weak, nonatomic) IBOutlet UIImageView *picture;
 

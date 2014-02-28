@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C739DB4E18C0D5A200505DC8 /* HorseDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C739DB4D18C0D5A200505DC8 /* HorseDetailsViewController.m */; };
 		C7DBFDD318BD832500D7EA12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DBFDD218BD832500D7EA12 /* Foundation.framework */; };
 		C7DBFDD518BD832500D7EA12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DBFDD418BD832500D7EA12 /* CoreGraphics.framework */; };
 		C7DBFDD718BD832500D7EA12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DBFDD618BD832500D7EA12 /* UIKit.framework */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C739DB4C18C0D5A200505DC8 /* HorseDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorseDetailsViewController.h; sourceTree = "<group>"; };
+		C739DB4D18C0D5A200505DC8 /* HorseDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorseDetailsViewController.m; sourceTree = "<group>"; };
 		C7DBFDCF18BD832500D7EA12 /* HorseBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorseBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DBFDD218BD832500D7EA12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7DBFDD418BD832500D7EA12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -133,6 +136,8 @@
 				C7DBFDE118BD832500D7EA12 /* AppDelegate.h */,
 				C7DBFDE218BD832500D7EA12 /* AppDelegate.m */,
 				C7DBFDE418BD832500D7EA12 /* Main.storyboard */,
+				C739DB4C18C0D5A200505DC8 /* HorseDetailsViewController.h */,
+				C739DB4D18C0D5A200505DC8 /* HorseDetailsViewController.m */,
 				C7DBFE0718BD8C3500D7EA12 /* HorsesViewController.h */,
 				C7DBFE0818BD8C3500D7EA12 /* HorsesViewController.m */,
 				C7DBFE0A18BD8F2900D7EA12 /* HorseCell.h */,
@@ -280,6 +285,7 @@
 				C7DBFDE318BD832500D7EA12 /* AppDelegate.m in Sources */,
 				C7DBFE0C18BD8F2900D7EA12 /* HorseCell.m in Sources */,
 				C7DBFDDF18BD832500D7EA12 /* main.m in Sources */,
+				C739DB4E18C0D5A200505DC8 /* HorseDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +494,7 @@
 				C7DBFE0318BD832500D7EA12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7DBFE0418BD832500D7EA12 /* Build configuration list for PBXNativeTarget "HorseBookTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +503,7 @@
 				C7DBFE0618BD832500D7EA12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

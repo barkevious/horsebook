@@ -1,5 +1,6 @@
 #import "HorsesViewController.h"
 #import "HorseCell.h"
+#import "HorseDetailsViewController.h"
 
 @interface HorsesViewController ()
 
@@ -11,10 +12,10 @@
     self = [super initWithCoder:aDecoder];
     if (self) {
         self.horses = @[
-                        @{@"name": @"Mr. Ed", @"picture": @"mred.jpg"},
-                        @{@"name": @"Seabiscuit", @"picture": @"seabiscuit.jpg"},
-                        @{@"name": @"Black Beauty", @"picture": @"blackbeauty.jpg"},
-                        @{@"name": @"Epona", @"picture": @"epona.png"},
+                        @{@"name": @"Mr. Ed", @"picture": @"mred.jpg", @"bio": @"Mr. Ed is no longer with us, but he lived a long and full life. Often referred to as the greatest horse of his generation, Mr. Ed was nothing short of a legend in the horse community."},
+                        @{@"name": @"Seabiscuit", @"picture": @"seabiscuit.jpg", @"bio": @"Seabiscuit won races and raced into America's heart."},
+                        @{@"name": @"Black Beauty", @"picture": @"blackbeauty.jpg", @"bio": @"What can be said about Black Beauty that hasn't already been said?"},
+                        @{@"name": @"Epona", @"picture": @"epona.png", @"bio": @"Epona was more than just Link's horse."},
                         ];
     }
     return self;
@@ -35,6 +36,7 @@
     static NSString *CellIdentifier = @"Horse";
     HorseCell *horseCell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     NSDictionary *horseInfo = self.horses[indexPath.row];
+    horseCell.horseInfo = horseInfo;
     NSString *name = [horseInfo valueForKey:@"name"];
     NSString *picture = [horseInfo valueForKey:@"picture"];
 
@@ -44,11 +46,12 @@
     return horseCell;
 }
 
-// In a story board-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    HorseCell *horseCell = sender;
+    HorseDetailsViewController *horseDetailsViewController = [segue destinationViewController];
+
+    horseDetailsViewController.horseInfo = horseCell.horseInfo;
 }
 
 @end

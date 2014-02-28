@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="605" y="-31"/>
         </scene>
-        <!--View Controller - Horse Name-->
+        <!--Horse Details View Controller - Horse Name-->
         <scene sceneID="2bp-up-Ra8">
             <objects>
-                <viewController id="mtY-LQ-XwZ" sceneMemberID="viewController">
+                <viewController id="mtY-LQ-XwZ" customClass="HorseDetailsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ms0-LC-mPa"/>
                         <viewControllerLayoutGuide type="bottom" id="U5V-T4-y0O"/>
@@ -59,7 +59,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Horse Bio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCy-fz-Dwz">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Horse Bio" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="228" translatesAutoresizingMaskIntoConstraints="NO" id="aCy-fz-Dwz">
                                 <rect key="frame" x="46" y="268" width="228" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -74,6 +74,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Horse Name" id="mwY-2v-bZO"/>
+                    <connections>
+                        <outlet property="bio" destination="aCy-fz-Dwz" id="fqE-lg-ZIh"/>
+                        <outlet property="picture" destination="vH3-4g-Ty2" id="7r8-a1-Jo5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cwu-Hm-h3k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
