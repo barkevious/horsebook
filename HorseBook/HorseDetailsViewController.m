@@ -19,9 +19,9 @@
 {
     [super viewWillAppear:animated];
 
-    self.navigationItem.title = [self.horseInfo valueForKey:@"name"];
-    self.picture.image = [UIImage imageNamed:[self.horseInfo valueForKey:@"picture"]];
-    self.bio.text = [self.horseInfo valueForKey:@"bio"];
+    self.navigationItem.title = self.horseInfo[@"name"];
+    self.picture.image = [UIImage imageNamed:self.horseInfo[@"picture"]];
+    self.bio.text = self.horseInfo[@"bio"];
 }
 
 @end
